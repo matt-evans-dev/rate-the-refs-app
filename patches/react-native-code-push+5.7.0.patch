@@ -1,0 +1,11 @@
+diff --git a/node_modules/react-native-code-push/android/app/build.gradle b/node_modules/react-native-code-push/android/app/build.gradle
+index 4fae97e..3ce2726 100644
+--- a/node_modules/react-native-code-push/android/app/build.gradle
++++ b/node_modules/react-native-code-push/android/app/build.gradle
+@@ -27,5 +27,5 @@ android {
+ 
+ dependencies {
+     implementation "com.facebook.react:react-native:+"
+-    implementation 'com.nimbusds:nimbus-jose-jwt:5.1'
++    implementation('com.nimbusds:nimbus-jose-jwt:5.1') { exclude group: "net.minidev", module: "json-smart" }
+ }

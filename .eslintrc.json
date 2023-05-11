@@ -1,0 +1,59 @@
+{
+  "extends": ["airbnb", "prettier", "plugin:react-perf/recommended"],
+  "plugins": ["babel", "react-native", "react-perf"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "react/jsx-wrap-multilines": 0,
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 2,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-color-literals": 0,
+    "react-perf/jsx-no-new-array-as-prop": 0,
+    "react-perf/jsx-no-new-object-as-prop": 0,
+    "react-perf/jsx-no-new-function-as-prop": 0,
+    "import/no-unresolved": 0,
+    "new-cap": 0,
+    "arrow-body-style": 0,
+    "react/prefer-stateless-function": 0,
+    "no-unused-expressions": 0,
+    "no-param-reassign": 0,
+    "no-throw-literal": 0,
+    "no-shadow": 0,
+    "import/extensions": 0,
+    "react/jsx-filename-extension": 0,
+    "react/forbid-prop-types": 0,
+    "no-plusplus": 0,
+    "jsx-a11y/href-no-hash": 0,
+    "react/jsx-no-undef": ["error"],
+    "react/no-multi-comp": 0,
+    "jsx-a11y/accessible-emoji": 0,
+    "global-require": "off",
+    "react/prop-types": 0,
+    "import/prefer-default-export": 0,
+    "no-invalid-this": 0,
+    "babel/no-invalid-this": 1,
+    "no-underscore-dangle": 0,
+    "camelcase": 0,
+    "react/sort-comp": 0,
+    "no-console": 0,
+    "no-return-assign": 0,
+    "no-use-before-define": ["error", { "variables": false }],
+    "react/jsx-no-bind": [0, {}]
+  },
+  "env": {
+    "jest": true,
+    "browser": true,
+    "node": true,
+    "react-native/react-native": true
+  },
+  "globals": {
+    "__dirnameBeforeCompiled": true,
+    "__non_webpack_require__": true,
+    "__DEV__": true
+  }
+}

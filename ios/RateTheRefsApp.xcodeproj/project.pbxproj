@@ -1,0 +1,1214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* RateTheRefsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RateTheRefsAppTests.m */; };
+		0BC22B24E697CC7DB7F5E1A6 /* libPods-defaults-RateTheRefsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4674ABABA6DFFEEFEA3ABEDF /* libPods-defaults-RateTheRefsApp.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		396F08FD2397681C0098E286 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396F08F92397681C0098E286 /* OpenSans-Semibold.ttf */; };
+		396F08FE2397681C0098E286 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396F08F92397681C0098E286 /* OpenSans-Semibold.ttf */; };
+		396F08FF2397681C0098E286 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396F08F92397681C0098E286 /* OpenSans-Semibold.ttf */; };
+		396F09002397681C0098E286 /* Anton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396F08FA2397681C0098E286 /* Anton-Regular.ttf */; };
+		396F09012397681C0098E286 /* Anton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396F08FA2397681C0098E286 /* Anton-Regular.ttf */; };
+		396F09022397681C0098E286 /* Anton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396F08FA2397681C0098E286 /* Anton-Regular.ttf */; };
+		396F09032397681C0098E286 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396F08FB2397681C0098E286 /* OpenSans-Regular.ttf */; };
+		396F09042397681C0098E286 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396F08FB2397681C0098E286 /* OpenSans-Regular.ttf */; };
+		396F09052397681C0098E286 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396F08FB2397681C0098E286 /* OpenSans-Regular.ttf */; };
+		396F09062397681C0098E286 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396F08FC2397681C0098E286 /* OpenSans-Bold.ttf */; };
+		396F09072397681C0098E286 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396F08FC2397681C0098E286 /* OpenSans-Bold.ttf */; };
+		396F09082397681C0098E286 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396F08FC2397681C0098E286 /* OpenSans-Bold.ttf */; };
+		39EF72C623950AC000392E46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		39EF72C723950AC000392E46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		39EF72CB23950AC000392E46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		39EF72CC23950AC000392E46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		39EF72D723950AD800392E46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		39EF72D823950AD800392E46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		39EF72DC23950AD800392E46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		39EF72DD23950AD800392E46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		39EF72F12395A10D00392E46 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39EF72F02395A10D00392E46 /* GoogleService-Info.plist */; };
+		39EF72F32395A11700392E46 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39EF72F22395A11700392E46 /* GoogleService-Info.plist */; };
+		39EF72F52395A12000392E46 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39EF72F42395A12000392E46 /* GoogleService-Info.plist */; };
+		591CD42A64777C63C0FA0C0D /* libPods-RateTheRefsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4104FE1B3CEE31B20509F34A /* libPods-RateTheRefsAppTests.a */; };
+		7B84E54AE82FBDD7E4ED9C7E /* libPods-defaults-RateTheRefsApp Staging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A501D21AF7A106FA6663F2 /* libPods-defaults-RateTheRefsApp Staging.a */; };
+		E73D5EDD2362630C62D025B3 /* libPods-defaults-RateTheRefsApp Dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 027AD93FCB99EB57C9D01057 /* libPods-defaults-RateTheRefsApp Dev.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = RateTheRefsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* RateTheRefsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateTheRefsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* RateTheRefsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RateTheRefsAppTests.m; sourceTree = "<group>"; };
+		027AD93FCB99EB57C9D01057 /* libPods-defaults-RateTheRefsApp Dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-defaults-RateTheRefsApp Dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Rate The Refs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rate The Refs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RateTheRefsApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RateTheRefsApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RateTheRefsApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RateTheRefsApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RateTheRefsApp/main.m; sourceTree = "<group>"; };
+		293DB7B9F12FB0444E21CE7F /* Pods-defaults-RateTheRefsApp Staging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RateTheRefsApp Staging.debug.xcconfig"; path = "Target Support Files/Pods-defaults-RateTheRefsApp Staging/Pods-defaults-RateTheRefsApp Staging.debug.xcconfig"; sourceTree = "<group>"; };
+		31885DF888A50AF2AE564EB4 /* Pods-defaults-RateTheRefsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RateTheRefsApp.debug.xcconfig"; path = "Target Support Files/Pods-defaults-RateTheRefsApp/Pods-defaults-RateTheRefsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		39475C0123C994CA0046811C /* RateTheRefsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = RateTheRefsApp.entitlements; path = RateTheRefsApp/RateTheRefsApp.entitlements; sourceTree = "<group>"; };
+		39475C0223C9963D0046811C /* RateTheRefsApp Dev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "RateTheRefsApp Dev.entitlements"; sourceTree = "<group>"; };
+		39475C0323C996420046811C /* RateTheRefsApp Staging.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "RateTheRefsApp Staging.entitlements"; sourceTree = "<group>"; };
+		396F08F92397681C0098E286 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Semibold.ttf"; path = "RateTheRefsApp/Resources/OpenSans-Semibold.ttf"; sourceTree = SOURCE_ROOT; };
+		396F08FA2397681C0098E286 /* Anton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Anton-Regular.ttf"; path = "RateTheRefsApp/Resources/Anton-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		396F08FB2397681C0098E286 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "RateTheRefsApp/Resources/OpenSans-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		396F08FC2397681C0098E286 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "RateTheRefsApp/Resources/OpenSans-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		39EF72D123950AC000392E46 /* RTR Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RTR Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EF72E223950AD800392E46 /* RTR Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RTR Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EF72F02395A10D00392E46 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "RateTheRefsApp/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		39EF72F22395A11700392E46 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "RateTheRefsApp/Dev/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		39EF72F42395A12000392E46 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "RateTheRefsApp/Staging/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4104FE1B3CEE31B20509F34A /* libPods-RateTheRefsAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RateTheRefsAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4674ABABA6DFFEEFEA3ABEDF /* libPods-defaults-RateTheRefsApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-defaults-RateTheRefsApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFEB9D4C310986D87E72D60 /* Pods-defaults-RateTheRefsApp.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RateTheRefsApp.staging.xcconfig"; path = "Target Support Files/Pods-defaults-RateTheRefsApp/Pods-defaults-RateTheRefsApp.staging.xcconfig"; sourceTree = "<group>"; };
+		61975154F4F80E303CB61029 /* Pods-defaults-RateTheRefsApp Staging.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RateTheRefsApp Staging.staging.xcconfig"; path = "Target Support Files/Pods-defaults-RateTheRefsApp Staging/Pods-defaults-RateTheRefsApp Staging.staging.xcconfig"; sourceTree = "<group>"; };
+		66FF4B6413361A5AE098D65B /* Pods-RateTheRefsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RateTheRefsApp.release.xcconfig"; path = "Target Support Files/Pods-RateTheRefsApp/Pods-RateTheRefsApp.release.xcconfig"; sourceTree = "<group>"; };
+		6707A2B351507612E2B8F08C /* Pods-defaults-RateTheRefsApp Staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RateTheRefsApp Staging.release.xcconfig"; path = "Target Support Files/Pods-defaults-RateTheRefsApp Staging/Pods-defaults-RateTheRefsApp Staging.release.xcconfig"; sourceTree = "<group>"; };
+		6A6373121E8A56A202ABA71C /* Pods-defaults-RateTheRefsApp Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RateTheRefsApp Dev.release.xcconfig"; path = "Target Support Files/Pods-defaults-RateTheRefsApp Dev/Pods-defaults-RateTheRefsApp Dev.release.xcconfig"; sourceTree = "<group>"; };
+		6A888E8A41DC4EBF03DF75FC /* Pods-RateTheRefsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RateTheRefsApp.debug.xcconfig"; path = "Target Support Files/Pods-RateTheRefsApp/Pods-RateTheRefsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		82E7EC166B8737F666869EEA /* Pods-RateTheRefsAppTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RateTheRefsAppTests.staging.xcconfig"; path = "Target Support Files/Pods-RateTheRefsAppTests/Pods-RateTheRefsAppTests.staging.xcconfig"; sourceTree = "<group>"; };
+		87B6F8F618F6D2F5D6B1145A /* Pods-defaults-RateTheRefsApp Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RateTheRefsApp Dev.debug.xcconfig"; path = "Target Support Files/Pods-defaults-RateTheRefsApp Dev/Pods-defaults-RateTheRefsApp Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		8B4F2E4406678C033FEFD759 /* Pods-RateTheRefsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RateTheRefsAppTests.release.xcconfig"; path = "Target Support Files/Pods-RateTheRefsAppTests/Pods-RateTheRefsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F5AA4357F1838E10C5E810C /* Pods-defaults-RateTheRefsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RateTheRefsApp.release.xcconfig"; path = "Target Support Files/Pods-defaults-RateTheRefsApp/Pods-defaults-RateTheRefsApp.release.xcconfig"; sourceTree = "<group>"; };
+		8FE6A630071E73E73091E885 /* Pods-RateTheRefsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RateTheRefsAppTests.debug.xcconfig"; path = "Target Support Files/Pods-RateTheRefsAppTests/Pods-RateTheRefsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE62801D2199FE2597ABA42 /* Pods-defaults-RateTheRefsApp Dev.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RateTheRefsApp Dev.staging.xcconfig"; path = "Target Support Files/Pods-defaults-RateTheRefsApp Dev/Pods-defaults-RateTheRefsApp Dev.staging.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F1A501D21AF7A106FA6663F2 /* libPods-defaults-RateTheRefsApp Staging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-defaults-RateTheRefsApp Staging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591CD42A64777C63C0FA0C0D /* libPods-RateTheRefsAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC22B24E697CC7DB7F5E1A6 /* libPods-defaults-RateTheRefsApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39EF72C823950AC000392E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73D5EDD2362630C62D025B3 /* libPods-defaults-RateTheRefsApp Dev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39EF72D923950AD800392E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B84E54AE82FBDD7E4ED9C7E /* libPods-defaults-RateTheRefsApp Staging.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* RateTheRefsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* RateTheRefsAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = RateTheRefsAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* RateTheRefsApp */ = {
+			isa = PBXGroup;
+			children = (
+				39475C0123C994CA0046811C /* RateTheRefsApp.entitlements */,
+				396F08F82397680C0098E286 /* Resources */,
+				39EF72F02395A10D00392E46 /* GoogleService-Info.plist */,
+				39EF72F22395A11700392E46 /* GoogleService-Info.plist */,
+				39EF72F42395A12000392E46 /* GoogleService-Info.plist */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = RateTheRefsApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				4104FE1B3CEE31B20509F34A /* libPods-RateTheRefsAppTests.a */,
+				4674ABABA6DFFEEFEA3ABEDF /* libPods-defaults-RateTheRefsApp.a */,
+				027AD93FCB99EB57C9D01057 /* libPods-defaults-RateTheRefsApp Dev.a */,
+				F1A501D21AF7A106FA6663F2 /* libPods-defaults-RateTheRefsApp Staging.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		396F08F82397680C0098E286 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				396F08FA2397681C0098E286 /* Anton-Regular.ttf */,
+				396F08FC2397681C0098E286 /* OpenSans-Bold.ttf */,
+				396F08FB2397681C0098E286 /* OpenSans-Regular.ttf */,
+				396F08F92397681C0098E286 /* OpenSans-Semibold.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3EB58C7F652337BDEA1368DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A888E8A41DC4EBF03DF75FC /* Pods-RateTheRefsApp.debug.xcconfig */,
+				66FF4B6413361A5AE098D65B /* Pods-RateTheRefsApp.release.xcconfig */,
+				8FE6A630071E73E73091E885 /* Pods-RateTheRefsAppTests.debug.xcconfig */,
+				8B4F2E4406678C033FEFD759 /* Pods-RateTheRefsAppTests.release.xcconfig */,
+				82E7EC166B8737F666869EEA /* Pods-RateTheRefsAppTests.staging.xcconfig */,
+				31885DF888A50AF2AE564EB4 /* Pods-defaults-RateTheRefsApp.debug.xcconfig */,
+				8F5AA4357F1838E10C5E810C /* Pods-defaults-RateTheRefsApp.release.xcconfig */,
+				5AFEB9D4C310986D87E72D60 /* Pods-defaults-RateTheRefsApp.staging.xcconfig */,
+				87B6F8F618F6D2F5D6B1145A /* Pods-defaults-RateTheRefsApp Dev.debug.xcconfig */,
+				6A6373121E8A56A202ABA71C /* Pods-defaults-RateTheRefsApp Dev.release.xcconfig */,
+				BCE62801D2199FE2597ABA42 /* Pods-defaults-RateTheRefsApp Dev.staging.xcconfig */,
+				293DB7B9F12FB0444E21CE7F /* Pods-defaults-RateTheRefsApp Staging.debug.xcconfig */,
+				6707A2B351507612E2B8F08C /* Pods-defaults-RateTheRefsApp Staging.release.xcconfig */,
+				61975154F4F80E303CB61029 /* Pods-defaults-RateTheRefsApp Staging.staging.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				39475C0323C996420046811C /* RateTheRefsApp Staging.entitlements */,
+				39475C0223C9963D0046811C /* RateTheRefsApp Dev.entitlements */,
+				13B07FAE1A68108700A75B9A /* RateTheRefsApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* RateTheRefsAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				3EB58C7F652337BDEA1368DB /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Rate The Refs.app */,
+				00E356EE1AD99517003FC87E /* RateTheRefsAppTests.xctest */,
+				39EF72D123950AC000392E46 /* RTR Dev.app */,
+				39EF72E223950AD800392E46 /* RTR Staging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* RateTheRefsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RateTheRefsAppTests" */;
+			buildPhases = (
+				B7D7DF213B28296FA09C0DAA /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = RateTheRefsAppTests;
+			productName = RateTheRefsAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* RateTheRefsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* RateTheRefsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RateTheRefsApp" */;
+			buildPhases = (
+				CFE29D6777BA2947308AE2E6 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				6D93E1FC0012462AC1C77629 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RateTheRefsApp;
+			productName = RateTheRefsApp;
+			productReference = 13B07F961A680F5B00A75B9A /* Rate The Refs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39EF72C223950AC000392E46 /* RateTheRefsApp Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39EF72CE23950AC000392E46 /* Build configuration list for PBXNativeTarget "RateTheRefsApp Dev" */;
+			buildPhases = (
+				39EF72C323950AC000392E46 /* [CP] Check Pods Manifest.lock */,
+				39EF72C423950AC000392E46 /* Start Packager */,
+				39EF72C523950AC000392E46 /* Sources */,
+				39EF72C823950AC000392E46 /* Frameworks */,
+				39EF72CA23950AC000392E46 /* Resources */,
+				39EF72CD23950AC000392E46 /* Bundle React Native code and images */,
+				62F8A8B1F42E0002D1CD7FEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RateTheRefsApp Dev";
+			productName = RateTheRefsApp;
+			productReference = 39EF72D123950AC000392E46 /* RTR Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39EF72D323950AD800392E46 /* RateTheRefsApp Staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39EF72DF23950AD800392E46 /* Build configuration list for PBXNativeTarget "RateTheRefsApp Staging" */;
+			buildPhases = (
+				39EF72D423950AD800392E46 /* [CP] Check Pods Manifest.lock */,
+				39EF72D523950AD800392E46 /* Start Packager */,
+				39EF72D623950AD800392E46 /* Sources */,
+				39EF72D923950AD800392E46 /* Frameworks */,
+				39EF72DB23950AD800392E46 /* Resources */,
+				39EF72DE23950AD800392E46 /* Bundle React Native code and images */,
+				6EA95F32CE9FF9B223DDA6D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RateTheRefsApp Staging";
+			productName = RateTheRefsApp;
+			productReference = 39EF72E223950AD800392E46 /* RTR Staging.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 79X85JBX37;
+					};
+					39EF72C223950AC000392E46 = {
+						DevelopmentTeam = P35U2CM27V;
+					};
+					39EF72D323950AD800392E46 = {
+						DevelopmentTeam = P35U2CM27V;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RateTheRefsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* RateTheRefsApp */,
+				00E356ED1AD99517003FC87E /* RateTheRefsAppTests */,
+				39EF72C223950AC000392E46 /* RateTheRefsApp Dev */,
+				39EF72D323950AD800392E46 /* RateTheRefsApp Staging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396F08FD2397681C0098E286 /* OpenSans-Semibold.ttf in Resources */,
+				396F09062397681C0098E286 /* OpenSans-Bold.ttf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				396F09002397681C0098E286 /* Anton-Regular.ttf in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				396F09032397681C0098E286 /* OpenSans-Regular.ttf in Resources */,
+				39EF72F12395A10D00392E46 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39EF72CA23950AC000392E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396F08FE2397681C0098E286 /* OpenSans-Semibold.ttf in Resources */,
+				396F09072397681C0098E286 /* OpenSans-Bold.ttf in Resources */,
+				39EF72CB23950AC000392E46 /* Images.xcassets in Resources */,
+				396F09012397681C0098E286 /* Anton-Regular.ttf in Resources */,
+				39EF72CC23950AC000392E46 /* LaunchScreen.xib in Resources */,
+				396F09042397681C0098E286 /* OpenSans-Regular.ttf in Resources */,
+				39EF72F32395A11700392E46 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39EF72DB23950AD800392E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396F08FF2397681C0098E286 /* OpenSans-Semibold.ttf in Resources */,
+				396F09082397681C0098E286 /* OpenSans-Bold.ttf in Resources */,
+				39EF72DC23950AD800392E46 /* Images.xcassets in Resources */,
+				396F09022397681C0098E286 /* Anton-Regular.ttf in Resources */,
+				39EF72DD23950AD800392E46 /* LaunchScreen.xib in Resources */,
+				396F09052397681C0098E286 /* OpenSans-Regular.ttf in Resources */,
+				39EF72F52395A12000392E46 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		39EF72C323950AC000392E46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-defaults-RateTheRefsApp Dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39EF72C423950AC000392E46 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39EF72CD23950AC000392E46 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		39EF72D423950AD800392E46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-defaults-RateTheRefsApp Staging-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39EF72D523950AD800392E46 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39EF72DE23950AD800392E46 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		62F8A8B1F42E0002D1CD7FEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-defaults-RateTheRefsApp Dev/Pods-defaults-RateTheRefsApp Dev-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-defaults-RateTheRefsApp Dev/Pods-defaults-RateTheRefsApp Dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D93E1FC0012462AC1C77629 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-defaults-RateTheRefsApp/Pods-defaults-RateTheRefsApp-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-defaults-RateTheRefsApp/Pods-defaults-RateTheRefsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA95F32CE9FF9B223DDA6D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-defaults-RateTheRefsApp Staging/Pods-defaults-RateTheRefsApp Staging-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-defaults-RateTheRefsApp Staging/Pods-defaults-RateTheRefsApp Staging-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D7DF213B28296FA09C0DAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RateTheRefsAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE29D6777BA2947308AE2E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-defaults-RateTheRefsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* RateTheRefsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39EF72C523950AC000392E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EF72C623950AC000392E46 /* AppDelegate.m in Sources */,
+				39EF72C723950AC000392E46 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39EF72D623950AD800392E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EF72D723950AD800392E46 /* AppDelegate.m in Sources */,
+				39EF72D823950AD800392E46 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* RateTheRefsApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = RateTheRefsApp;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE6A630071E73E73091E885 /* Pods-RateTheRefsAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RateTheRefsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rate The Refs.app/Rate The Refs";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B4F2E4406678C033FEFD759 /* Pods-RateTheRefsAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = RateTheRefsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rate The Refs.app/Rate The Refs";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31885DF888A50AF2AE564EB4 /* Pods-defaults-RateTheRefsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RateTheRefsApp/RateTheRefsApp.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 79X85JBX37;
+				INFOPLIST_FILE = RateTheRefsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratetherefs;
+				PRODUCT_NAME = "Rate The Refs";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5AA4357F1838E10C5E810C /* Pods-defaults-RateTheRefsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RateTheRefsApp/RateTheRefsApp.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79X85JBX37;
+				INFOPLIST_FILE = RateTheRefsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratetherefs;
+				PRODUCT_NAME = "Rate The Refs";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		39EF72CF23950AC000392E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B6F8F618F6D2F5D6B1145A /* Pods-defaults-RateTheRefsApp Dev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RateTheRefsApp Dev.entitlements";
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = P35U2CM27V;
+				INFOPLIST_FILE = RateTheRefsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratetherefs.dev;
+				PRODUCT_NAME = "RTR Dev";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		39EF72D023950AC000392E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6373121E8A56A202ABA71C /* Pods-defaults-RateTheRefsApp Dev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RateTheRefsApp Dev.entitlements";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P35U2CM27V;
+				INFOPLIST_FILE = RateTheRefsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratetherefs.dev;
+				PRODUCT_NAME = "RTR Dev";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		39EF72E023950AD800392E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293DB7B9F12FB0444E21CE7F /* Pods-defaults-RateTheRefsApp Staging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RateTheRefsApp Staging.entitlements";
+				CURRENT_PROJECT_VERSION = 8;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = P35U2CM27V;
+				INFOPLIST_FILE = RateTheRefsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.8;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratetherefs.staging;
+				PRODUCT_NAME = "RTR Staging";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		39EF72E123950AD800392E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6707A2B351507612E2B8F08C /* Pods-defaults-RateTheRefsApp Staging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RateTheRefsApp Staging.entitlements";
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = P35U2CM27V;
+				INFOPLIST_FILE = RateTheRefsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.8;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratetherefs.staging;
+				PRODUCT_NAME = "RTR Staging";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		39EF72E423950B1700392E46 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODEPUSH_KEY = wfkvzDcXL6tOifzileIPDyV1dpW1Uzr5J4EEc;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Staging;
+		};
+		39EF72E523950B1700392E46 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AFEB9D4C310986D87E72D60 /* Pods-defaults-RateTheRefsApp.staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RateTheRefsApp/RateTheRefsApp.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79X85JBX37;
+				INFOPLIST_FILE = RateTheRefsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratetherefs;
+				PRODUCT_NAME = "Rate The Refs";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Staging;
+		};
+		39EF72E623950B1700392E46 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E7EC166B8737F666869EEA /* Pods-RateTheRefsAppTests.staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = RateTheRefsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rate The Refs.app/Rate The Refs";
+			};
+			name = Staging;
+		};
+		39EF72E723950B1700392E46 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE62801D2199FE2597ABA42 /* Pods-defaults-RateTheRefsApp Dev.staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RateTheRefsApp Dev.entitlements";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P35U2CM27V;
+				INFOPLIST_FILE = RateTheRefsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratetherefs.dev;
+				PRODUCT_NAME = "RTR Dev";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Staging;
+		};
+		39EF72E823950B1700392E46 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61975154F4F80E303CB61029 /* Pods-defaults-RateTheRefsApp Staging.staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RateTheRefsApp Staging.entitlements";
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = P35U2CM27V;
+				INFOPLIST_FILE = RateTheRefsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.8;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratetherefs.staging;
+				PRODUCT_NAME = "RTR Staging";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Staging;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODEPUSH_KEY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODEPUSH_KEY = "KcQMwGU8Np48Nc9UgYMMSHj_p8HN6ftG2-wPX";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RateTheRefsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+				39EF72E623950B1700392E46 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RateTheRefsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+				39EF72E523950B1700392E46 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39EF72CE23950AC000392E46 /* Build configuration list for PBXNativeTarget "RateTheRefsApp Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39EF72CF23950AC000392E46 /* Debug */,
+				39EF72D023950AC000392E46 /* Release */,
+				39EF72E723950B1700392E46 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39EF72DF23950AD800392E46 /* Build configuration list for PBXNativeTarget "RateTheRefsApp Staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39EF72E023950AD800392E46 /* Debug */,
+				39EF72E123950AD800392E46 /* Release */,
+				39EF72E823950B1700392E46 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RateTheRefsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+				39EF72E423950B1700392E46 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

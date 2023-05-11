@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "787375891637",
+    "firebase_url": "https://rate-the-ref.firebaseio.com",
+    "project_id": "rate-the-ref",
+    "storage_bucket": "rate-the-ref.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787375891637:android:55926c1d54d1be8d28cafc",
+        "android_client_info": {
+          "package_name": "com.ratetherefs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787375891637-1njnh9crvi00nc9u64g2j1d86hpepilh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ratetherefs",
+            "certificate_hash": "8d7faa4ed0dfed6d6c7574dfb144b64ac3c1bfb7"
+          }
+        },
+        {
+          "client_id": "787375891637-it5slaf4biao2ltni3ubm80m5mf8ahnr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ratetherefs",
+            "certificate_hash": "537e7a69a3468591e727f5b1dc8782dee3838160"
+          }
+        },
+        {
+          "client_id": "787375891637-06ke1o8ad9kbqdbv1vskbmeq6ns8o0cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa-NEHOxHrDP4j4KZFLvKBsH2HYknbBG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787375891637-06ke1o8ad9kbqdbv1vskbmeq6ns8o0cv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "787375891637-kk50u2l9qgnoplp5okkplla5i35lseem.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ratetherefs.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787375891637:android:0a34b5368461de1028cafc",
+        "android_client_info": {
+          "package_name": "com.ratetherefs.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787375891637-2irggke98v5ds34u3l5kb0md3eqcmjfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ratetherefs.dev",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "787375891637-06ke1o8ad9kbqdbv1vskbmeq6ns8o0cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa-NEHOxHrDP4j4KZFLvKBsH2HYknbBG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787375891637-06ke1o8ad9kbqdbv1vskbmeq6ns8o0cv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "787375891637-kk50u2l9qgnoplp5okkplla5i35lseem.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ratetherefs.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787375891637:android:77e4a1d90476dd3428cafc",
+        "android_client_info": {
+          "package_name": "com.ratetherefs.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787375891637-hrqmqsg9a98jkpsl5adfs0qv0v8ddbmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ratetherefs.staging",
+            "certificate_hash": "537e7a69a3468591e727f5b1dc8782dee3838160"
+          }
+        },
+        {
+          "client_id": "787375891637-2ae7si7mg0u05rbhu83oqbs4s465ik8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ratetherefs.staging",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "787375891637-06ke1o8ad9kbqdbv1vskbmeq6ns8o0cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa-NEHOxHrDP4j4KZFLvKBsH2HYknbBG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787375891637-06ke1o8ad9kbqdbv1vskbmeq6ns8o0cv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "787375891637-kk50u2l9qgnoplp5okkplla5i35lseem.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ratetherefs.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
